@@ -1,6 +1,7 @@
 defaults: []
 
 run: null  # pass via CLI
+run_id: null  # set from run-specific config
 results_dir: ./results
 mode: full  # trial or full
 
