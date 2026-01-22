@@ -244,3 +244,163 @@ Installed 74 packages in 273ms
   0%|          | 0.00/170M [00:00<?, ?B/s]  0%|          | 32.8k/170M [00:00<15:39, 181kB/s]  0%|          | 65.5k/170M [00:00<15:33, 183kB/s]  0%|          | 98.3k/170M [00:00<15:32, 183kB/s]  0%|          | 229k/170M [00:00<07:08, 398kB/s]   0%|          | 459k/170M [00:00<03:58, 713kB/s]  1%|          | 918k/170M [00:01<02:06, 1.34MB/s]  1%|          | 1.84M/170M [00:01<01:05, 2.56MB/s]  2%|▏         | 3.70M/170M [00:01<00:33, 5.04MB/s]  4%|▍         | 6.72M/170M [00:01<00:18, 8.64MB/s]  6%|▌         | 9.93M/170M [00:01<00:14, 11.4MB/s]  8%|▊         | 13.1M/170M [00:01<00:11, 13.2MB/s] 10%|▉         | 16.2M/170M [00:02<00:10, 14.3MB/s] 11%|█▏        | 19.4M/170M [00:02<00:09, 15.3MB/s] 13%|█▎        | 22.6M/170M [00:02<00:09, 15.9MB/s] 15%|█▌        | 25.9M/170M [00:02<00:08, 16.4MB/s] 17%|█▋        | 29.1M/170M [00:02<00:08, 16.7MB/s] 19%|█▉        | 32.3M/170M [00:03<00:08, 17.0MB/s] 21%|██        | 35.6M/170M [00:03<00:07, 17.1MB/s] 23%|██▎       | 38.8M/170M [00:03<00:07, 17.2MB/s] 25%|██▍       | 42.0M/170M [00:03<00:07, 17.2MB/s] 27%|██▋       | 45.2M/170M [00:03<00:07, 17.3MB/s] 28%|██▊       | 48.4M/170M [00:04<00:07, 17.3MB/s] 30%|███       | 51.6M/170M [00:04<00:06, 17.3MB/s] 32%|███▏      | 54.8M/170M [00:04<00:06, 17.4MB/s] 34%|███▍      | 58.0M/170M [00:04<00:06, 17.4MB/s] 36%|███▌      | 61.3M/170M [00:04<00:06, 17.3MB/s] 38%|███▊      | 64.3M/170M [00:04<00:06, 17.0MB/s] 40%|███▉      | 67.4M/170M [00:05<00:06, 17.0MB/s] 41%|████▏     | 70.6M/170M [00:05<00:05, 17.1MB/s] 43%|████▎     | 73.8M/170M [00:05<00:05, 17.2MB/s] 45%|████▌     | 77.1M/170M [00:05<00:05, 17.3MB/s] 47%|████▋     | 80.2M/170M [00:05<00:05, 17.3MB/s] 49%|████▉     | 83.5M/170M [00:06<00:05, 17.3MB/s] 51%|█████     | 86.7M/170M [00:06<00:04, 17.3MB/s] 53%|█████▎    | 89.9M/170M [00:06<00:04, 17.4MB/s] 55%|█████▍    | 93.1M/170M [00:06<00:04, 17.3MB/s] 56%|█████▋    | 96.2M/170M [00:06<00:04, 17.2MB/s] 58%|█████▊    | 99.6M/170M [00:06<00:04, 17.5MB/s] 60%|██████    | 103M/170M [00:07<00:03, 17.5MB/s]  62%|██████▏   | 106M/170M [00:07<00:03, 17.5MB/s] 64%|██████▍   | 109M/170M [00:07<00:03, 17.5MB/s] 66%|██████▌   | 112M/170M [00:07<00:03, 17.5MB/s] 68%|██████▊   | 116M/170M [00:07<00:03, 17.5MB/s] 70%|██████▉   | 119M/170M [00:08<00:02, 17.5MB/s] 72%|███████▏  | 122M/170M [00:08<00:02, 17.4MB/s] 74%|███████▎  | 125M/170M [00:08<00:02, 17.4MB/s] 75%|███████▌  | 129M/170M [00:08<00:02, 17.4MB/s] 77%|███████▋  | 132M/170M [00:08<00:02, 17.4MB/s] 79%|███████▉  | 135M/170M [00:09<00:02, 17.5MB/s] 81%|████████  | 138M/170M [00:09<00:01, 17.5MB/s] 83%|████████▎ | 141M/170M [00:09<00:01, 17.4MB/s] 85%|████████▍ | 145M/170M [00:09<00:01, 17.5MB/s] 87%|████████▋ | 148M/170M [00:09<00:01, 17.5MB/s] 89%|████████▊ | 151M/170M [00:09<00:01, 17.5MB/s] 91%|█████████ | 154M/170M [00:10<00:00, 17.3MB/s] 92%|█████████▏| 158M/170M [00:10<00:00, 17.4MB/s] 94%|█████████▍| 161M/170M [00:10<00:00, 17.4MB/s] 96%|█████████▌| 164M/170M [00:10<00:00, 17.5MB/s] 98%|█████████▊| 167M/170M [00:10<00:00, 17.4MB/s]100%|█████████▉| 170M/170M [00:11<00:00, 17.2MB/s]100%|██████████| 170M/170M [00:11<00:00, 15.4MB/s]
 /workspace/actions-runner/_work/matsuzawa-20260122-2/matsuzawa-20260122-2/.venv/lib/python3.11/site-packages/torchvision/datasets/cifar.py:83: VisibleDeprecationWarning: dtype(): align should be passed as Python or NumPy boolean but got `align=0`. Did you mean to pass a tuple to create a subarray type? (Deprecated NumPy 2.4)
   entry = pickle.load(f, encoding="latin1")
+Using CPython 3.11.14
+Creating virtual environment at: .venv
+Resolved 85 packages in 391ms
+   Building auasa-experiments @ file:///workspace/actions-runner/_work/matsuzawa-20260122-2/matsuzawa-20260122-2
+Downloading sqlalchemy (3.2MiB)
+Downloading cuda-bindings (11.6MiB)
+Downloading pandas (10.7MiB)
+Downloading triton (179.5MiB)
+Downloading torchvision (7.7MiB)
+Downloading nvidia-nvshmem-cu12 (132.7MiB)
+Downloading torch (873.2MiB)
+ Downloaded torchvision
+ Downloaded sqlalchemy
+ Downloaded cuda-bindings
+      Built auasa-experiments @ file:///workspace/actions-runner/_work/matsuzawa-20260122-2/matsuzawa-20260122-2
+ Downloaded nvidia-nvshmem-cu12
+ Downloaded pandas
+ Downloaded triton
+ Downloaded torch
+Prepared 12 packages in 14.33s
+Installed 74 packages in 290ms
+ + alembic==1.18.1
+ + annotated-types==0.7.0
+ + antlr4-python3-runtime==4.9.3
+ + auasa-experiments==0.1.0 (from file:///workspace/actions-runner/_work/matsuzawa-20260122-2/matsuzawa-20260122-2)
+ + certifi==2026.1.4
+ + charset-normalizer==3.4.4
+ + click==8.3.1
+ + colorlog==6.10.1
+ + contourpy==1.3.3
+ + cuda-bindings==12.9.4
+ + cuda-pathfinder==1.3.3
+ + cycler==0.12.1
+ + filelock==3.20.3
+ + fonttools==4.61.1
+ + fsspec==2026.1.0
+ + gitdb==4.0.12
+ + gitpython==3.1.46
+ + greenlet==3.3.0
+ + hydra-core==1.3.2
+ + idna==3.11
+ + jinja2==3.1.6
+ + joblib==1.5.3
+ + kiwisolver==1.4.9
+ + mako==1.3.10
+ + markupsafe==3.0.3
+ + matplotlib==3.10.8
+ + mpmath==1.3.0
+ + networkx==3.6.1
+ + numpy==2.4.1
+ + nvidia-cublas-cu12==12.8.4.1
+ + nvidia-cuda-cupti-cu12==12.8.90
+ + nvidia-cuda-nvrtc-cu12==12.8.93
+ + nvidia-cuda-runtime-cu12==12.8.90
+ + nvidia-cudnn-cu12==9.10.2.21
+ + nvidia-cufft-cu12==11.3.3.83
+ + nvidia-cufile-cu12==1.13.1.3
+ + nvidia-curand-cu12==10.3.9.90
+ + nvidia-cusolver-cu12==11.7.3.90
+ + nvidia-cusparse-cu12==12.5.8.93
+ + nvidia-cusparselt-cu12==0.7.1
+ + nvidia-nccl-cu12==2.27.5
+ + nvidia-nvjitlink-cu12==12.8.93
+ + nvidia-nvshmem-cu12==3.4.5
+ + nvidia-nvtx-cu12==12.8.90
+ + omegaconf==2.3.0
+ + optuna==4.7.0
+ + packaging==26.0
+ + pandas==3.0.0
+ + pillow==12.1.0
+ + platformdirs==4.5.1
+ + protobuf==6.33.4
+ + pydantic==2.12.5
+ + pydantic-core==2.41.5
+ + pyparsing==3.3.2
+ + python-dateutil==2.9.0.post0
+ + pyyaml==6.0.3
+ + requests==2.32.5
+ + scikit-learn==1.8.0
+ + scipy==1.17.0
+ + seaborn==0.13.2
+ + sentry-sdk==2.50.0
+ + six==1.17.0
+ + smmap==5.0.2
+ + sqlalchemy==2.0.46
+ + sympy==1.14.0
+ + threadpoolctl==3.6.0
+ + torch==2.10.0
+ + torchvision==0.25.0
+ + tqdm==4.67.1
+ + triton==3.6.0
+ + typing-extensions==4.15.0
+ + typing-inspection==0.4.2
+ + urllib3==2.6.3
+ + wandb==0.24.0
+[I 2026-01-22 05:27:03,341] A new study created in memory with name: no-name-c928777f-b4af-42e8-b7a8-9ae6803998d5
+  0%|          | 0.00/170M [00:00<?, ?B/s]  0%|          | 32.8k/170M [00:00<16:11, 175kB/s]  0%|          | 65.5k/170M [00:00<16:04, 177kB/s]  0%|          | 98.3k/170M [00:00<16:03, 177kB/s]  0%|          | 229k/170M [00:00<07:22, 385kB/s]   0%|          | 459k/170M [00:00<04:06, 690kB/s]  1%|          | 918k/170M [00:01<02:11, 1.29MB/s]  1%|          | 1.84M/170M [00:01<01:07, 2.48MB/s]  2%|▏         | 3.67M/170M [00:01<00:31, 5.36MB/s]  4%|▎         | 6.32M/170M [00:01<00:19, 8.34MB/s]  5%|▌         | 9.31M/170M [00:01<00:14, 10.8MB/s]  7%|▋         | 12.6M/170M [00:01<00:12, 12.8MB/s]  9%|▉         | 15.8M/170M [00:02<00:11, 14.0MB/s] 11%|█         | 19.0M/170M [00:02<00:10, 14.9MB/s] 13%|█▎        | 22.2M/170M [00:02<00:09, 15.6MB/s] 15%|█▍        | 25.5M/170M [00:02<00:09, 16.0MB/s] 17%|█▋        | 28.7M/170M [00:02<00:08, 16.3MB/s] 19%|█▊        | 31.9M/170M [00:03<00:08, 16.5MB/s] 21%|██        | 35.2M/170M [00:03<00:08, 16.6MB/s] 22%|██▏       | 38.3M/170M [00:03<00:07, 16.6MB/s] 24%|██▍       | 41.6M/170M [00:03<00:07, 16.7MB/s] 26%|██▋       | 44.8M/170M [00:03<00:07, 16.7MB/s] 28%|██▊       | 47.9M/170M [00:04<00:07, 16.6MB/s] 30%|██▉       | 51.0M/170M [00:04<00:07, 16.5MB/s] 32%|███▏      | 54.2M/170M [00:04<00:07, 16.6MB/s] 34%|███▎      | 57.4M/170M [00:04<00:06, 16.7MB/s] 36%|███▌      | 60.7M/170M [00:04<00:06, 16.8MB/s] 37%|███▋      | 63.9M/170M [00:05<00:06, 16.8MB/s] 39%|███▉      | 67.0M/170M [00:05<00:06, 16.7MB/s] 41%|████      | 70.3M/170M [00:05<00:05, 16.8MB/s] 43%|████▎     | 73.7M/170M [00:05<00:05, 17.0MB/s] 45%|████▍     | 76.7M/170M [00:05<00:05, 16.7MB/s] 47%|████▋     | 79.9M/170M [00:06<00:05, 16.7MB/s] 49%|████▊     | 83.0M/170M [00:06<00:05, 16.6MB/s] 51%|█████     | 86.1M/170M [00:06<00:05, 16.6MB/s] 52%|█████▏    | 89.4M/170M [00:06<00:04, 16.7MB/s] 54%|█████▍    | 92.5M/170M [00:06<00:04, 16.6MB/s] 56%|█████▌    | 95.7M/170M [00:06<00:04, 16.7MB/s] 58%|█████▊    | 98.8M/170M [00:07<00:04, 16.6MB/s] 60%|█████▉    | 102M/170M [00:07<00:04, 16.7MB/s]  62%|██████▏   | 105M/170M [00:07<00:03, 16.7MB/s] 64%|██████▎   | 108M/170M [00:07<00:03, 16.5MB/s] 66%|██████▌   | 112M/170M [00:07<00:03, 16.8MB/s] 67%|██████▋   | 115M/170M [00:08<00:03, 16.7MB/s] 69%|██████▉   | 118M/170M [00:08<00:03, 16.8MB/s] 71%|███████   | 121M/170M [00:08<00:02, 16.9MB/s] 73%|███████▎  | 125M/170M [00:08<00:02, 17.2MB/s] 75%|███████▌  | 128M/170M [00:08<00:02, 17.0MB/s] 77%|███████▋  | 131M/170M [00:09<00:02, 16.9MB/s] 79%|███████▉  | 134M/170M [00:09<00:02, 16.9MB/s] 81%|████████  | 138M/170M [00:09<00:01, 16.8MB/s] 83%|████████▎ | 141M/170M [00:09<00:01, 16.8MB/s] 84%|████████▍ | 144M/170M [00:09<00:01, 16.8MB/s] 86%|████████▋ | 147M/170M [00:10<00:01, 16.9MB/s] 88%|████████▊ | 150M/170M [00:10<00:01, 16.9MB/s] 90%|█████████ | 154M/170M [00:10<00:00, 16.9MB/s] 92%|█████████▏| 157M/170M [00:10<00:00, 16.9MB/s] 94%|█████████▍| 160M/170M [00:10<00:00, 16.9MB/s] 96%|█████████▌| 163M/170M [00:10<00:00, 16.9MB/s] 98%|█████████▊| 167M/170M [00:11<00:00, 16.9MB/s]100%|█████████▉| 170M/170M [00:11<00:00, 16.9MB/s]100%|██████████| 170M/170M [00:11<00:00, 15.0MB/s]
+/workspace/actions-runner/_work/matsuzawa-20260122-2/matsuzawa-20260122-2/.venv/lib/python3.11/site-packages/torchvision/datasets/cifar.py:83: VisibleDeprecationWarning: dtype(): align should be passed as Python or NumPy boolean but got `align=0`. Did you mean to pass a tuple to create a subarray type? (Deprecated NumPy 2.4)
+  entry = pickle.load(f, encoding="latin1")
+[I 2026-01-22 05:27:37,841] Trial 0 finished with value: 0.37890625 and parameters: {'learning_rate': 0.0005369491337764541, 'weight_decay': 0.0009307214656782526}. Best is trial 0 with value: 0.37890625.
+[I 2026-01-22 05:27:58,894] Trial 1 finished with value: 0.37890625 and parameters: {'learning_rate': 0.0033666239791581665, 'weight_decay': 0.0004887353979327644}. Best is trial 0 with value: 0.37890625.
+[I 2026-01-22 05:28:19,567] Trial 2 finished with value: 0.47265625 and parameters: {'learning_rate': 0.007000901315941522, 'weight_decay': 0.000756998942785477}. Best is trial 0 with value: 0.37890625.
+[I 2026-01-22 05:28:40,095] Trial 3 finished with value: 0.3515625 and parameters: {'learning_rate': 0.001985571283525359, 'weight_decay': 0.0001408470463061081}. Best is trial 3 with value: 0.3515625.
+[I 2026-01-22 05:29:02,263] Trial 4 finished with value: 0.3671875 and parameters: {'learning_rate': 0.00037098606979817393, 'weight_decay': 0.0009460469897155132}. Best is trial 3 with value: 0.3515625.
+[I 2026-01-22 05:29:22,774] Trial 5 finished with value: 0.3359375 and parameters: {'learning_rate': 0.0005701454849000037, 'weight_decay': 0.0007461479387251059}. Best is trial 5 with value: 0.3359375.
+[I 2026-01-22 05:29:43,471] Trial 6 finished with value: 0.30859375 and parameters: {'learning_rate': 0.000662306856580449, 'weight_decay': 1.856783940423362e-05}. Best is trial 6 with value: 0.30859375.
+[I 2026-01-22 05:30:03,903] Trial 7 finished with value: 0.36328125 and parameters: {'learning_rate': 0.0002461655677562992, 'weight_decay': 0.00012167874533948467}. Best is trial 6 with value: 0.30859375.
+[I 2026-01-22 05:30:23,925] Trial 8 finished with value: 0.41796875 and parameters: {'learning_rate': 0.007536299907885094, 'weight_decay': 0.0003860722196007455}. Best is trial 6 with value: 0.30859375.
+[I 2026-01-22 05:30:44,661] Trial 9 finished with value: 0.39453125 and parameters: {'learning_rate': 0.0035535143753346395, 'weight_decay': 0.0007592448071337739}. Best is trial 6 with value: 0.30859375.
+[I 2026-01-22 05:31:05,625] Trial 10 finished with value: 0.44921875 and parameters: {'learning_rate': 0.00010938961914468316, 'weight_decay': 2.437116593154219e-05}. Best is trial 6 with value: 0.30859375.
+[I 2026-01-22 05:31:26,420] Trial 11 finished with value: 0.3359375 and parameters: {'learning_rate': 0.0008809494253540022, 'weight_decay': 0.0006311383849783369}. Best is trial 6 with value: 0.30859375.
+[I 2026-01-22 05:31:48,165] Trial 12 finished with value: 0.328125 and parameters: {'learning_rate': 0.001194340639619627, 'weight_decay': 0.0003132088839455113}. Best is trial 6 with value: 0.30859375.
+[I 2026-01-22 05:32:10,158] Trial 13 finished with value: 0.2890625 and parameters: {'learning_rate': 0.0013602593412296855, 'weight_decay': 0.00031261276776138326}. Best is trial 13 with value: 0.2890625.
+[I 2026-01-22 05:32:31,782] Trial 14 finished with value: 0.3125 and parameters: {'learning_rate': 0.001346456397338894, 'weight_decay': 0.00024836194545667937}. Best is trial 13 with value: 0.2890625.
+[I 2026-01-22 05:32:53,739] Trial 15 finished with value: 0.375 and parameters: {'learning_rate': 0.0002546763753242603, 'weight_decay': 2.3623166527552927e-05}. Best is trial 13 with value: 0.2890625.
+[I 2026-01-22 05:33:15,439] Trial 16 finished with value: 0.34765625 and parameters: {'learning_rate': 0.002022108870044698, 'weight_decay': 0.0004193571326244816}. Best is trial 13 with value: 0.2890625.
+[I 2026-01-22 05:33:37,479] Trial 17 finished with value: 0.3203125 and parameters: {'learning_rate': 0.0008155466129746516, 'weight_decay': 0.00021170701562392468}. Best is trial 13 with value: 0.2890625.
+[I 2026-01-22 05:33:58,335] Trial 18 finished with value: 0.44921875 and parameters: {'learning_rate': 0.00010835121871901952, 'weight_decay': 0.00032712937915950295}. Best is trial 13 with value: 0.2890625.
+[I 2026-01-22 05:34:19,986] Trial 19 finished with value: 0.4140625 and parameters: {'learning_rate': 0.003581168836456999, 'weight_decay': 0.0005591278668054952}. Best is trial 13 with value: 0.2890625.
+wandb: [wandb.login()] Loaded credentials for https://api.wandb.ai from WANDB_API_KEY.
+wandb: Currently logged in as: gengaru617 (gengaru617-personal) to https://api.wandb.ai. Use `wandb login --relogin` to force relogin
+wandb: setting up run proposed-resnet18-cifar10
+wandb: Tracking run with wandb version 0.24.0
+wandb: Run data is saved locally in /workspace/actions-runner/_work/matsuzawa-20260122-2/matsuzawa-20260122-2/wandb/run-20260122_053422-proposed-resnet18-cifar10
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run proposed-resnet18-cifar10
+wandb: ⭐️ View project at https://wandb.ai/gengaru617-personal/2026-01-22-2
+wandb: 🚀 View run at https://wandb.ai/gengaru617-personal/2026-01-22-2/runs/proposed-resnet18-cifar10
+wandb: WARNING The get_url method is deprecated and will be removed in a future release. Please use `run.url` instead.
+wandb: updating run metadata
+wandb: uploading output.log; uploading wandb-summary.json; uploading config.yaml
+wandb: uploading history steps 34908-35199, summary
+wandb: 
+wandb: Run history:
+wandb:            epoch ▁▁▁▁▂▂▂▂▂▂▃▃▃▃▄▄▄▄▄▄▅▅▅▅▅▆▆▆▆▆▆▇▇▇▇▇▇███
+wandb:        train_acc ▁▁▃▃▂▃▄▄▄▃▃▅▅▅▄▄▅▆▅▅▄▅▄▅▅▆▆▆▆▆▆▆▆▇▇▇▇███
+wandb:  train_acc_epoch ▁▂▂▂▃▃▃▃▃▃▄▄▄▄▄▄▄▅▅▅▆▆▆▆▆▇▇▇▇▇▇█████████
+wandb:       train_loss ▇▇▆█▅▇█▇▆▆█▅▆▆▆▅▆▄▅▅▃▄▃▆▄▄▃▃▄▂▄▂▂▂▁▁▁▁▄▂
+wandb: train_loss_epoch █▆▆▆▆▅▅▅▅▅▅▅▅▄▄▄▄▄▄▃▃▃▃▃▃▂▂▂▂▂▂▂▁▁▁▁▁▁▁▁
+wandb:          val_acc ▁▁▁▃▁▄▄▄▄▅▅▅▆▅▅▆▅▅▆▆▆▇▇▇▆▆▇▇▇▇▇█████████
+wandb:          val_ece ▅▄█▃▇▆▅▃▁▁▄▃▃▄▃▂▃▂▃▃▄▂▃▄▁▄▃▃▄▃▄▅▅▄▅▅▅▄▅▅
+wandb:         val_loss ██▇▇█▅▅▆▅▅▄▄▄▄▄▄▄▄▃▃▃▃▃▂▂▂▂▃▂▂▁▁▁▁▁▁▁▁▁▁
+wandb: 
+wandb: Run summary:
+wandb:         accuracy 0.8261
+wandb:     best_val_acc 0.8392
+wandb:            epoch 99
+wandb:         test_ece 0.02635
+wandb:        test_loss 0.55759
+wandb:        train_acc 0.84722
+wandb:  train_acc_epoch 0.86933
+wandb:       train_loss 0.04617
+wandb: train_loss_epoch 0.03898
+wandb:          val_acc 0.8344
+wandb:               +2 ...
+wandb: 
+wandb: 🚀 View run proposed-resnet18-cifar10 at: https://wandb.ai/gengaru617-personal/2026-01-22-2/runs/proposed-resnet18-cifar10
+wandb: ⭐️ View project at: https://wandb.ai/gengaru617-personal/2026-01-22-2
+wandb: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20260122_053422-proposed-resnet18-cifar10/logs
