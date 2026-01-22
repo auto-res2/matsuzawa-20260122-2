@@ -357,7 +357,9 @@ def main(cfg: DictConfig):
     if not run_cfg_path.exists():
         raise FileNotFoundError(f"Run config not found: {run_cfg_path}")
 
+    OmegaConf.set_struct(cfg, False)
     cfg = OmegaConf.merge(cfg, OmegaConf.load(run_cfg_path))
+    OmegaConf.set_struct(cfg, True)
 
     # ------------------------------------------------------------------
     # Mode overrides
