@@ -473,5 +473,101 @@
     "experimental_code": "import torch\nimport torch.nn as nn\nimport torch.nn.functional as F\n\n# Uncertainty meta-model predicting augmentation-induced uncertainty\nclass UncertaintyMetaModel(nn.Module):\n    def __init__(self, input_dim=4, hidden_dim=16):\n        super(UncertaintyMetaModel, self).__init__()\n        self.fc = nn.Sequential(\n            nn.Linear(input_dim, hidden_dim),\n            nn.ReLU(),\n            nn.Linear(hidden_dim, 1)\n        )\n    def forward(self, aug_features):\n        # predicts uncertainty (higher value means more uncertainty)\n        return self.fc(aug_features).squeeze()\n\n# Adaptive Uncertainty-Aware Soft Augmentation Loss\n\ndef adaptive_uncertainty_loss(logits, targets, aug_metric, uncertainty, k=0.1, alpha=0.5):\n    ce_loss = F.cross_entropy(logits, targets, reduction='none')\n    # Weight from augmentation measured metric: higher aug_metric -> lower weight\n    weight_from_aug = torch.exp(-k * aug_metric)\n    # Further modulate weight using predicted uncertainty\n    weight_from_uncertainty = torch.exp(-alpha * uncertainty)\n    weight = weight_from_aug * weight_from_uncertainty\n    return (ce_loss * weight).mean()\n\n# Example simple CNN for demonstration on CIFAR-10\n\nclass SimpleCNN(nn.Module):\n    def __init__(self, num_classes=10):\n        super(SimpleCNN, self).__init__()\n        self.conv = nn.Conv2d(3, 16, kernel_size=3, padding=1)\n        self.pool = nn.AdaptiveAvgPool2d((8, 8))\n        self.fc = nn.Linear(16 * 8 * 8, num_classes)\n    def forward(self, x):\n        x = F.relu(self.conv(x))\n        x = self.pool(x)\n        x = x.view(x.size(0), -1)\n        return self.fc(x)\n\n# Function to simulate measure of augmentation strength and quality\n\ndef measure_augmentation(aug_params):\n    # Suppose aug_params is a tensor containing transformation intensity and quality metric\n    # Example: aug_params = [rotation, crop, quality]\n    # Calculate a composite aug metric: higher when transformation is stronger and quality is lower\n    rotation, crop, quality = aug_params\n    return rotation + crop * (2 - quality)\n\n# Training step integrating AUASA\n\ndef train_step(model, uncertainty_model, optimizer, images, labels, aug_params):\n    model.train()\n    uncertainty_model.train()\n    optimizer.zero_grad()\n    logits = model(images)\n    # Compute augmentation strength metric\n    aug_metric = torch.tensor(measure_augmentation(aug_params), dtype=torch.float32, device=images.device)\n    # For uncertainty prediction, form a simple feature vector: [rotation, crop, quality, aug_metric]\n    aug_features = torch.tensor([aug_params[0], aug_params[1], aug_params[2], aug_metric.item()], dtype=torch.float32, device=images.device).unsqueeze(0)\n    predicted_uncertainty = uncertainty_model(aug_features)\n    loss = adaptive_uncertainty_loss(logits, labels, aug_metric, predicted_uncertainty, k=0.1, alpha=0.5)\n    loss.backward()\n    optimizer.step()\n    return loss.item()\n\n# Example Usage\nif __name__ == '__main__':\n    model = SimpleCNN(num_classes=10)\n    uncertainty_model = UncertaintyMetaModel(input_dim=4, hidden_dim=16)\n    optimizer = torch.optim.Adam(list(model.parameters()) + list(uncertainty_model.parameters()), lr=0.001)\n    # Dummy batch input\n    images = torch.randn(32, 3, 32, 32)\n    labels = torch.randint(0, 10, (32,))\n    aug_params = [15.0, 0.2, 0.7]  # Example: rotation=15, crop=0.2, quality=0.7\n    loss = train_step(model, uncertainty_model, optimizer, images, labels, aug_params)\n    print('Training loss:', loss)\n",
     "expected_result": "We expect AUASA to improve classification accuracy by 3-5 percentage points on CIFAR-10 relative to fixed soft augmentation baselines. Moreover, the Expected Calibration Error (ECE) should decrease by at least 20%, and training curves will exhibit reduced variance under aggressive augmentation regimes.",
     "expected_conclusion": "The proposed AUASA method demonstrates a novel integration of meta-learning for uncertainty prediction with adaptive soft target refinement, effectively bridging the gap between aggressive data augmentation and rigid supervision. This advancement not only enhances data-efficient image classification accuracy but also improves model calibration and training stability, offering significant academic insights and practical benefits for scenarios with limited labeled data."
+  },
+  "experimental_design": {
+    "experiment_summary": "This experiment aims to demonstrate the superiority of the proposed Adaptive Uncertainty-Aware Soft Augmentation (AUASA) method for image classification tasks under aggressive data augmentation. The task is to improve standard CNN classification (e.g., ResNet-18) on the CIFAR-10 dataset by dynamically estimating per-sample augmentation-induced uncertainty, thereby refining soft target labels and weighting the classification loss with an auxiliary calibration loss. The workflow involves training a baseline model with fixed soft target augmentation and then training it with the proposed AUASA method. Ablation studies will also be conducted to isolate the contributions of the uncertainty meta-model and calibration loss. The experiment is scaled to fit within the Runner environment (self-hosted, gpu-runner with NVIDIA A100/H200 and sufficient VRAM/large memory), using a single dataset and a single model to keep training and hyperparameter search within practical limits.",
+    "runner_config": {
+      "runner_label": [
+        "self-hosted",
+        "gpu-runner"
+      ],
+      "description": "NVIDIA A100 or H200, VRAM: 80 GB or more, RAM: 2048 GB or more"
+    },
+    "evaluation_metrics": [
+      {
+        "name": "accuracy",
+        "description": "This metric represents the top-1 classification accuracy on the test set. It is computed as the number of correctly classified samples divided by the total number of samples. A prediction is counted as correct if the model's highest-probability class matches the ground truth label. This metric is primary because it directly reflects the classification performance which the AUASA method aims to improve. A learning curve plot showing accuracy progression over epochs is an appropriate visualization."
+      },
+      {
+        "name": "Expected Calibration Error (ECE)",
+        "description": "ECE measures the calibration of the model by comparing the predicted probabilities with the actual correctness frequency. It is calculated by partitioning the predictions into bins and computing the weighted average difference between accuracy and confidence for each bin. This metric is computed as ECE = Σ|acc(B_m) - conf(B_m)| * (|B_m|/N). It is suitable here because AUASA explicitly incorporates an auxiliary calibration loss aiming to reduce ECE, and bar plots or reliability diagrams are appropriate for visualizing calibration performance."
+      }
+    ],
+    "models_to_use": [
+      "ResNet-18 (approximately 11M parameters)"
+    ],
+    "datasets_to_use": [
+      "CIFAR-10"
+    ],
+    "proposed_method": {
+      "method_name": "Adaptive Uncertainty-Aware Soft Augmentation (AUASA)",
+      "description": "AUASA integrates a meta-learning based uncertainty estimation module and a target refinement mechanism into the training process. It uses an uncertainty meta-model to dynamically predict per-sample uncertainty from augmentation parameters and intermediate feature representations, which in turn refines soft labels using a dynamic exponential decay mechanism. An auxiliary calibration loss based on Expected Calibration Error (ECE) ensures improved model calibration.",
+      "training_config": {
+        "learning_rate": 0.001,
+        "batch_size": 128,
+        "epochs": 100,
+        "optimizer": "adam",
+        "warmup_steps": 500,
+        "weight_decay": 0.0001,
+        "gradient_clip": 5.0,
+        "scheduler": "cosine",
+        "seed": 42,
+        "additional_params": "{\"k\": 0.1, \"alpha\": 0.5, \"dynamic_decay\": true, \"auxiliary_calibration_loss_weight\": 0.2}"
+      },
+      "optuna_config": {
+        "enabled": true,
+        "n_trials": 20,
+        "search_spaces": [
+          {
+            "param_name": "learning_rate",
+            "distribution_type": "loguniform",
+            "low": 0.0001,
+            "high": 0.01
+          },
+          {
+            "param_name": "weight_decay",
+            "distribution_type": "uniform",
+            "low": 1e-05,
+            "high": 0.001
+          }
+        ]
+      }
+    },
+    "comparative_methods": [
+      {
+        "method_name": "Fixed Soft Augmentation Baseline (AC-CWSA)",
+        "description": "This baseline method uses a standard fixed or heuristically softened target augmentation scheme (e.g., AC-CWSA). It employs fixed target softening without dynamically adjusting for per-sample uncertainty. Its performance serves as a reference to evaluate the dynamic benefits provided by AUASA in terms of both accuracy and model calibration.",
+        "training_config": {
+          "learning_rate": 0.001,
+          "batch_size": 128,
+          "epochs": 100,
+          "optimizer": "adam",
+          "warmup_steps": 500,
+          "weight_decay": 0.0001,
+          "gradient_clip": 5.0,
+          "scheduler": "cosine",
+          "seed": 42,
+          "additional_params": "{\"softening_constant\": 0.7}"
+        },
+        "optuna_config": {
+          "enabled": true,
+          "n_trials": 20,
+          "search_spaces": [
+            {
+              "param_name": "learning_rate",
+              "distribution_type": "loguniform",
+              "low": 0.0001,
+              "high": 0.01
+            },
+            {
+              "param_name": "softening_constant",
+              "distribution_type": "uniform",
+              "low": 0.5,
+              "high": 0.9
+            }
+          ]
+        }
+      }
+    ]
   }
 }
