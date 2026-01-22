@@ -1,0 +1,10 @@
+defaults: []
+
+run: null  # pass via CLI
+results_dir: ./results
+mode: full  # trial or full
+
+wandb:
+  entity: gengaru617-personal
+  project: 2026-01-22-2
+  mode: online  # updated depending on mode at runtime

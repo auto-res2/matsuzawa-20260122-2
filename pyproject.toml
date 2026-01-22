@@ -1,1 +1,22 @@
-# Please list the required python packages.
+[tool.poetry]
+name = "auasa-experiments"
+version = "0.1.0"
+description = "Experimental codebase for AUASA paper"
+authors = ["Researcher <researcher@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+torch = "^2.1.0"
+torchvision = "^0.16.0"
+hydra-core = "^1.3.2"
+wandb = "^0.16.0"
+optuna = "^3.5.0"
+seaborn = "^0.13.0"
+matplotlib = "^3.8.0"
+pandas = "^2.1.0"
+scikit-learn = "^1.3.0"
+scipy = "^1.11.0"
+
+[build-system]
+requires = ["poetry>=1.5.0"]
+build-backend = "poetry.core.masonry.api"

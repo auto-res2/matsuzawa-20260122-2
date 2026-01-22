@@ -1,0 +1,41 @@
+run_id: proposed-resnet18-cifar10
+method: Adaptive Uncertainty-Aware Soft Augmentation (AUASA)
+model:
+  name: resnet18
+  num_parameters: 11M
+dataset:
+  name: cifar10
+  preprocessing:
+    normalization:
+      mean: [0.4914, 0.4822, 0.4465]
+      std: [0.2470, 0.2435, 0.2616]
+  split:
+    train: 45000
+    val: 5000
+    test: 10000
+training:
+  learning_rate: 0.001
+  batch_size: 128
+  epochs: 100
+  optimizer: adam
+  warmup_steps: 500
+  scheduler: cosine
+  weight_decay: 0.0001
+  gradient_clip: 5.0
+  seed: 42
+  additional_params:
+    k: 0.1
+    alpha: 0.5
+    dynamic_decay: true
+    auxiliary_calibration_loss_weight: 0.2
+optuna:
+  n_trials: 20
+  search_spaces:
+    - param_name: learning_rate
+      distribution_type: loguniform
+      low: 0.0001
+      high: 0.01
+    - param_name: weight_decay
+      distribution_type: uniform
+      low: 1e-05
+      high: 0.001
