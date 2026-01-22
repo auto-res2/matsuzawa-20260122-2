@@ -244,3 +244,166 @@ Installed 74 packages in 273ms
   0%|          | 0.00/170M [00:00<?, ?B/s]  0%|          | 32.8k/170M [00:00<15:39, 181kB/s]  0%|          | 65.5k/170M [00:00<15:33, 183kB/s]  0%|          | 98.3k/170M [00:00<15:32, 183kB/s]  0%|          | 229k/170M [00:00<07:08, 398kB/s]   0%|          | 459k/170M [00:00<03:58, 713kB/s]  1%|          | 918k/170M [00:01<02:06, 1.34MB/s]  1%|          | 1.84M/170M [00:01<01:05, 2.56MB/s]  2%|▏         | 3.70M/170M [00:01<00:33, 5.04MB/s]  4%|▍         | 6.72M/170M [00:01<00:18, 8.64MB/s]  6%|▌         | 9.93M/170M [00:01<00:14, 11.4MB/s]  8%|▊         | 13.1M/170M [00:01<00:11, 13.2MB/s] 10%|▉         | 16.2M/170M [00:02<00:10, 14.3MB/s] 11%|█▏        | 19.4M/170M [00:02<00:09, 15.3MB/s] 13%|█▎        | 22.6M/170M [00:02<00:09, 15.9MB/s] 15%|█▌        | 25.9M/170M [00:02<00:08, 16.4MB/s] 17%|█▋        | 29.1M/170M [00:02<00:08, 16.7MB/s] 19%|█▉        | 32.3M/170M [00:03<00:08, 17.0MB/s] 21%|██        | 35.6M/170M [00:03<00:07, 17.1MB/s] 23%|██▎       | 38.8M/170M [00:03<00:07, 17.2MB/s] 25%|██▍       | 42.0M/170M [00:03<00:07, 17.2MB/s] 27%|██▋       | 45.2M/170M [00:03<00:07, 17.3MB/s] 28%|██▊       | 48.4M/170M [00:04<00:07, 17.3MB/s] 30%|███       | 51.6M/170M [00:04<00:06, 17.3MB/s] 32%|███▏      | 54.8M/170M [00:04<00:06, 17.4MB/s] 34%|███▍      | 58.0M/170M [00:04<00:06, 17.4MB/s] 36%|███▌      | 61.3M/170M [00:04<00:06, 17.3MB/s] 38%|███▊      | 64.3M/170M [00:04<00:06, 17.0MB/s] 40%|███▉      | 67.4M/170M [00:05<00:06, 17.0MB/s] 41%|████▏     | 70.6M/170M [00:05<00:05, 17.1MB/s] 43%|████▎     | 73.8M/170M [00:05<00:05, 17.2MB/s] 45%|████▌     | 77.1M/170M [00:05<00:05, 17.3MB/s] 47%|████▋     | 80.2M/170M [00:05<00:05, 17.3MB/s] 49%|████▉     | 83.5M/170M [00:06<00:05, 17.3MB/s] 51%|█████     | 86.7M/170M [00:06<00:04, 17.3MB/s] 53%|█████▎    | 89.9M/170M [00:06<00:04, 17.4MB/s] 55%|█████▍    | 93.1M/170M [00:06<00:04, 17.3MB/s] 56%|█████▋    | 96.2M/170M [00:06<00:04, 17.2MB/s] 58%|█████▊    | 99.6M/170M [00:06<00:04, 17.5MB/s] 60%|██████    | 103M/170M [00:07<00:03, 17.5MB/s]  62%|██████▏   | 106M/170M [00:07<00:03, 17.5MB/s] 64%|██████▍   | 109M/170M [00:07<00:03, 17.5MB/s] 66%|██████▌   | 112M/170M [00:07<00:03, 17.5MB/s] 68%|██████▊   | 116M/170M [00:07<00:03, 17.5MB/s] 70%|██████▉   | 119M/170M [00:08<00:02, 17.5MB/s] 72%|███████▏  | 122M/170M [00:08<00:02, 17.4MB/s] 74%|███████▎  | 125M/170M [00:08<00:02, 17.4MB/s] 75%|███████▌  | 129M/170M [00:08<00:02, 17.4MB/s] 77%|███████▋  | 132M/170M [00:08<00:02, 17.4MB/s] 79%|███████▉  | 135M/170M [00:09<00:02, 17.5MB/s] 81%|████████  | 138M/170M [00:09<00:01, 17.5MB/s] 83%|████████▎ | 141M/170M [00:09<00:01, 17.4MB/s] 85%|████████▍ | 145M/170M [00:09<00:01, 17.5MB/s] 87%|████████▋ | 148M/170M [00:09<00:01, 17.5MB/s] 89%|████████▊ | 151M/170M [00:09<00:01, 17.5MB/s] 91%|█████████ | 154M/170M [00:10<00:00, 17.3MB/s] 92%|█████████▏| 158M/170M [00:10<00:00, 17.4MB/s] 94%|█████████▍| 161M/170M [00:10<00:00, 17.4MB/s] 96%|█████████▌| 164M/170M [00:10<00:00, 17.5MB/s] 98%|█████████▊| 167M/170M [00:10<00:00, 17.4MB/s]100%|█████████▉| 170M/170M [00:11<00:00, 17.2MB/s]100%|██████████| 170M/170M [00:11<00:00, 15.4MB/s]
 /workspace/actions-runner/_work/matsuzawa-20260122-2/matsuzawa-20260122-2/.venv/lib/python3.11/site-packages/torchvision/datasets/cifar.py:83: VisibleDeprecationWarning: dtype(): align should be passed as Python or NumPy boolean but got `align=0`. Did you mean to pass a tuple to create a subarray type? (Deprecated NumPy 2.4)
   entry = pickle.load(f, encoding="latin1")
+Using CPython 3.11.14
+Creating virtual environment at: .venv
+Resolved 85 packages in 384ms
+   Building auasa-experiments @ file:///workspace/actions-runner/_work/matsuzawa-20260122-2/matsuzawa-20260122-2
+Downloading torch (873.2MiB)
+Downloading triton (179.5MiB)
+Downloading nvidia-nvshmem-cu12 (132.7MiB)
+Downloading pandas (10.7MiB)
+      Built auasa-experiments @ file:///workspace/actions-runner/_work/matsuzawa-20260122-2/matsuzawa-20260122-2
+ Downloaded nvidia-nvshmem-cu12
+ Downloaded triton
+ Downloaded pandas
+ Downloaded torch
+Prepared 5 packages in 13.44s
+Installed 74 packages in 276ms
+ + alembic==1.18.1
+ + annotated-types==0.7.0
+ + antlr4-python3-runtime==4.9.3
+ + auasa-experiments==0.1.0 (from file:///workspace/actions-runner/_work/matsuzawa-20260122-2/matsuzawa-20260122-2)
+ + certifi==2026.1.4
+ + charset-normalizer==3.4.4
+ + click==8.3.1
+ + colorlog==6.10.1
+ + contourpy==1.3.3
+ + cuda-bindings==12.9.4
+ + cuda-pathfinder==1.3.3
+ + cycler==0.12.1
+ + filelock==3.20.3
+ + fonttools==4.61.1
+ + fsspec==2026.1.0
+ + gitdb==4.0.12
+ + gitpython==3.1.46
+ + greenlet==3.3.0
+ + hydra-core==1.3.2
+ + idna==3.11
+ + jinja2==3.1.6
+ + joblib==1.5.3
+ + kiwisolver==1.4.9
+ + mako==1.3.10
+ + markupsafe==3.0.3
+ + matplotlib==3.10.8
+ + mpmath==1.3.0
+ + networkx==3.6.1
+ + numpy==2.4.1
+ + nvidia-cublas-cu12==12.8.4.1
+ + nvidia-cuda-cupti-cu12==12.8.90
+ + nvidia-cuda-nvrtc-cu12==12.8.93
+ + nvidia-cuda-runtime-cu12==12.8.90
+ + nvidia-cudnn-cu12==9.10.2.21
+ + nvidia-cufft-cu12==11.3.3.83
+ + nvidia-cufile-cu12==1.13.1.3
+ + nvidia-curand-cu12==10.3.9.90
+ + nvidia-cusolver-cu12==11.7.3.90
+ + nvidia-cusparse-cu12==12.5.8.93
+ + nvidia-cusparselt-cu12==0.7.1
+ + nvidia-nccl-cu12==2.27.5
+ + nvidia-nvjitlink-cu12==12.8.93
+ + nvidia-nvshmem-cu12==3.4.5
+ + nvidia-nvtx-cu12==12.8.90
+ + omegaconf==2.3.0
+ + optuna==4.7.0
+ + packaging==26.0
+ + pandas==3.0.0
+ + pillow==12.1.0
+ + platformdirs==4.5.1
+ + protobuf==6.33.4
+ + pydantic==2.12.5
+ + pydantic-core==2.41.5
+ + pyparsing==3.3.2
+ + python-dateutil==2.9.0.post0
+ + pyyaml==6.0.3
+ + requests==2.32.5
+ + scikit-learn==1.8.0
+ + scipy==1.17.0
+ + seaborn==0.13.2
+ + sentry-sdk==2.50.0
+ + six==1.17.0
+ + smmap==5.0.2
+ + sqlalchemy==2.0.46
+ + sympy==1.14.0
+ + threadpoolctl==3.6.0
+ + torch==2.10.0
+ + torchvision==0.25.0
+ + tqdm==4.67.1
+ + triton==3.6.0
+ + typing-extensions==4.15.0
+ + typing-inspection==0.4.2
+ + urllib3==2.6.3
+ + wandb==0.24.0
+[I 2026-01-22 05:27:02,090] A new study created in memory with name: no-name-a07e6d8b-6053-4aa6-883e-c683cb8b9049
+[W 2026-01-22 05:27:02,092] Trial 0 failed with parameters: {'learning_rate': 0.006194223903794453, 'softening_constant': 0.7722612242618945} because of the following error: ConfigAttributeError("Key 'softening_constant' is not in struct\n    full_key: training.softening_constant\n    object_type=dict").
+Traceback (most recent call last):
+  File "/workspace/actions-runner/_work/matsuzawa-20260122-2/matsuzawa-20260122-2/.venv/lib/python3.11/site-packages/optuna/study/_optimize.py", line 206, in _run_trial
+    value_or_values = func(trial)
+                      ^^^^^^^^^^^
+  File "/workspace/actions-runner/_work/matsuzawa-20260122-2/matsuzawa-20260122-2/src/train.py", line 388, in <lambda>
+    study.optimize(lambda t: _objective(t, cfg, device), n_trials=int(cfg.optuna.n_trials))
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/actions-runner/_work/matsuzawa-20260122-2/matsuzawa-20260122-2/src/train.py", line 317, in _objective
+    OmegaConf.update(cfg, f"training.{space.param_name}", val, merge=False)
+  File "/workspace/actions-runner/_work/matsuzawa-20260122-2/matsuzawa-20260122-2/.venv/lib/python3.11/site-packages/omegaconf/omegaconf.py", line 741, in update
+    root.__setattr__(last_key, value)
+  File "/workspace/actions-runner/_work/matsuzawa-20260122-2/matsuzawa-20260122-2/.venv/lib/python3.11/site-packages/omegaconf/dictconfig.py", line 337, in __setattr__
+    raise e
+  File "/workspace/actions-runner/_work/matsuzawa-20260122-2/matsuzawa-20260122-2/.venv/lib/python3.11/site-packages/omegaconf/dictconfig.py", line 334, in __setattr__
+    self.__set_impl(key, value)
+  File "/workspace/actions-runner/_work/matsuzawa-20260122-2/matsuzawa-20260122-2/.venv/lib/python3.11/site-packages/omegaconf/dictconfig.py", line 318, in __set_impl
+    self._set_item_impl(key, value)
+  File "/workspace/actions-runner/_work/matsuzawa-20260122-2/matsuzawa-20260122-2/.venv/lib/python3.11/site-packages/omegaconf/basecontainer.py", line 549, in _set_item_impl
+    self._validate_set(key, value)
+  File "/workspace/actions-runner/_work/matsuzawa-20260122-2/matsuzawa-20260122-2/.venv/lib/python3.11/site-packages/omegaconf/dictconfig.py", line 180, in _validate_set
+    target = self._get_node(key) if key is not None else self
+             ^^^^^^^^^^^^^^^^^^^
+  File "/workspace/actions-runner/_work/matsuzawa-20260122-2/matsuzawa-20260122-2/.venv/lib/python3.11/site-packages/omegaconf/dictconfig.py", line 475, in _get_node
+    self._validate_get(key)
+  File "/workspace/actions-runner/_work/matsuzawa-20260122-2/matsuzawa-20260122-2/.venv/lib/python3.11/site-packages/omegaconf/dictconfig.py", line 164, in _validate_get
+    self._format_and_raise(
+  File "/workspace/actions-runner/_work/matsuzawa-20260122-2/matsuzawa-20260122-2/.venv/lib/python3.11/site-packages/omegaconf/base.py", line 231, in _format_and_raise
+    format_and_raise(
+  File "/workspace/actions-runner/_work/matsuzawa-20260122-2/matsuzawa-20260122-2/.venv/lib/python3.11/site-packages/omegaconf/_utils.py", line 899, in format_and_raise
+    _raise(ex, cause)
+  File "/workspace/actions-runner/_work/matsuzawa-20260122-2/matsuzawa-20260122-2/.venv/lib/python3.11/site-packages/omegaconf/_utils.py", line 797, in _raise
+    raise ex.with_traceback(sys.exc_info()[2])  # set env var OC_CAUSE=1 for full trace
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+omegaconf.errors.ConfigAttributeError: Key 'softening_constant' is not in struct
+    full_key: training.softening_constant
+    object_type=dict
+[W 2026-01-22 05:27:02,094] Trial 0 failed with value None.
+Error executing job with overrides: ['run=comparative-1-resnet18-cifar10', 'results_dir=.research/results', 'mode=full']
+Traceback (most recent call last):
+  File "/workspace/actions-runner/_work/matsuzawa-20260122-2/matsuzawa-20260122-2/src/train.py", line 388, in main
+    study.optimize(lambda t: _objective(t, cfg, device), n_trials=int(cfg.optuna.n_trials))
+  File "/workspace/actions-runner/_work/matsuzawa-20260122-2/matsuzawa-20260122-2/.venv/lib/python3.11/site-packages/optuna/study/study.py", line 490, in optimize
+    _optimize(
+  File "/workspace/actions-runner/_work/matsuzawa-20260122-2/matsuzawa-20260122-2/.venv/lib/python3.11/site-packages/optuna/study/_optimize.py", line 68, in _optimize
+    _optimize_sequential(
+  File "/workspace/actions-runner/_work/matsuzawa-20260122-2/matsuzawa-20260122-2/.venv/lib/python3.11/site-packages/optuna/study/_optimize.py", line 165, in _optimize_sequential
+    frozen_trial_id = _run_trial(study, func, catch)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/actions-runner/_work/matsuzawa-20260122-2/matsuzawa-20260122-2/.venv/lib/python3.11/site-packages/optuna/study/_optimize.py", line 263, in _run_trial
+    raise func_err
+  File "/workspace/actions-runner/_work/matsuzawa-20260122-2/matsuzawa-20260122-2/.venv/lib/python3.11/site-packages/optuna/study/_optimize.py", line 206, in _run_trial
+    value_or_values = func(trial)
+                      ^^^^^^^^^^^
+  File "/workspace/actions-runner/_work/matsuzawa-20260122-2/matsuzawa-20260122-2/src/train.py", line 388, in <lambda>
+    study.optimize(lambda t: _objective(t, cfg, device), n_trials=int(cfg.optuna.n_trials))
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/actions-runner/_work/matsuzawa-20260122-2/matsuzawa-20260122-2/src/train.py", line 317, in _objective
+    OmegaConf.update(cfg, f"training.{space.param_name}", val, merge=False)
+omegaconf.errors.ConfigAttributeError: Key 'softening_constant' is not in struct
+    full_key: training.softening_constant
+    object_type=dict
+
+Set the environment variable HYDRA_FULL_ERROR=1 for a complete stack trace.
+Error executing job with overrides: ['run=comparative-1-resnet18-cifar10', 'results_dir=.research/results', 'mode=full']
+Traceback (most recent call last):
+  File "/workspace/actions-runner/_work/matsuzawa-20260122-2/matsuzawa-20260122-2/src/main.py", line 26, in main
+    subprocess.run(cmd, check=True)
+  File "/home/runner/.local/share/uv/python/cpython-3.11.14-linux-x86_64-gnu/lib/python3.11/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['/workspace/actions-runner/_work/matsuzawa-20260122-2/matsuzawa-20260122-2/.venv/bin/python3', '-u', '/workspace/actions-runner/_work/matsuzawa-20260122-2/matsuzawa-20260122-2/src/train.py', 'run=comparative-1-resnet18-cifar10', 'results_dir=.research/results', 'mode=full']' returned non-zero exit status 1.
+
+Set the environment variable HYDRA_FULL_ERROR=1 for a complete stack trace.

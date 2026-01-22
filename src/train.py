@@ -218,7 +218,7 @@ def _train_single(cfg: DictConfig, device: torch.device, trial_mode: bool):
                 )
                 loss = loss_main + aux_w * brier_score_loss(logits, lbls)
             else:
-                smooth = float(getattr(cfg.training.additional_params, "softening_constant", 0.1))
+                smooth = float(getattr(cfg.training, "softening_constant", 0.1))
                 loss = label_smoothing_loss(logits, lbls, smooth_factor=smooth)
 
             loss.backward()

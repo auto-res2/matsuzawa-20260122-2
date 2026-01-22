@@ -10,3 +10,7 @@ Launching: /workspace/actions-runner/_work/matsuzawa-20260122-2/matsuzawa-202601
 Launching: /workspace/actions-runner/_work/matsuzawa-20260122-2/matsuzawa-20260122-2/.venv/bin/python3 -u /workspace/actions-runner/_work/matsuzawa-20260122-2/matsuzawa-20260122-2/src/train.py run=proposed-resnet18-cifar10 results_dir=.research/results mode=trial
 === [TRIAL RUN] PASSED for proposed-resnet18-cifar10 at Thu Jan 22 05:25:55 UTC 2026 ===
 
+=== [UV SYNC] Start at Thu Jan 22 05:26:34 UTC 2026 ===
+=== [UV SYNC] Finished successfully at Thu Jan 22 05:26:48 UTC 2026 ===
+=== [FULL EXPERIMENT] Start for comparative-1-resnet18-cifar10 at Thu Jan 22 05:26:48 UTC 2026 ===
+Launching: /workspace/actions-runner/_work/matsuzawa-20260122-2/matsuzawa-20260122-2/.venv/bin/python3 -u /workspace/actions-runner/_work/matsuzawa-20260122-2/matsuzawa-20260122-2/src/train.py run=comparative-1-resnet18-cifar10 results_dir=.research/results mode=full
