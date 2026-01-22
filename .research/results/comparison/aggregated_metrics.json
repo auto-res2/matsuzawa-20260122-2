@@ -1,0 +1,74 @@
+{
+  "primary_metric": "accuracy",
+  "metrics": {
+    "_runtime": {
+      "comparative-1-resnet18-cifar10": 779.873705211,
+      "proposed-resnet18-cifar10": 847.760530554
+    },
+    "_step": {
+      "comparative-1-resnet18-cifar10": 35200.0,
+      "proposed-resnet18-cifar10": 35200.0
+    },
+    "_timestamp": {
+      "comparative-1-resnet18-cifar10": 1769061014.0740569,
+      "proposed-resnet18-cifar10": 1769060911.189772
+    },
+    "accuracy": {
+      "comparative-1-resnet18-cifar10": 0.8403,
+      "proposed-resnet18-cifar10": 0.8261
+    },
+    "best_val_acc": {
+      "comparative-1-resnet18-cifar10": 0.8532,
+      "proposed-resnet18-cifar10": 0.8392
+    },
+    "epoch": {
+      "comparative-1-resnet18-cifar10": 99.0,
+      "proposed-resnet18-cifar10": 99.0
+    },
+    "test_ece": {
+      "comparative-1-resnet18-cifar10": 0.5778454542160034,
+      "proposed-resnet18-cifar10": 0.026352012529969215
+    },
+    "test_loss": {
+      "comparative-1-resnet18-cifar10": 1.4613040126800536,
+      "proposed-resnet18-cifar10": 0.5575852275848389
+    },
+    "train_acc": {
+      "comparative-1-resnet18-cifar10": 0.944444477558136,
+      "proposed-resnet18-cifar10": 0.8472222089767456
+    },
+    "train_acc_epoch": {
+      "comparative-1-resnet18-cifar10": 0.9111111111111112,
+      "proposed-resnet18-cifar10": 0.8693333333333333
+    },
+    "train_loss": {
+      "comparative-1-resnet18-cifar10": 2.184601306915283,
+      "proposed-resnet18-cifar10": 0.046166956424713135
+    },
+    "train_loss_epoch": {
+      "comparative-1-resnet18-cifar10": 2.188018534427219,
+      "proposed-resnet18-cifar10": 0.03898154418203566
+    },
+    "val_acc": {
+      "comparative-1-resnet18-cifar10": 0.853,
+      "proposed-resnet18-cifar10": 0.8344
+    },
+    "val_ece": {
+      "comparative-1-resnet18-cifar10": 0.5889360904693604,
+      "proposed-resnet18-cifar10": 0.026599543169140816
+    },
+    "val_loss": {
+      "comparative-1-resnet18-cifar10": 1.4497387691497805,
+      "proposed-resnet18-cifar10": 0.5389307896614075
+    }
+  },
+  "best_proposed": {
+    "run_id": "proposed-resnet18-cifar10",
+    "value": 0.8261
+  },
+  "best_baseline": {
+    "run_id": "comparative-1-resnet18-cifar10",
+    "value": 0.8403
+  },
+  "gap": -1.6898726645245867
+}
