@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "opencode-plugin-langfuse": "^0.1.8"
+  }
+}
